@@ -1,4 +1,4 @@
-﻿const weddingDate = new Date("December 5, 2026 07:00:00").getTime();
+﻿const weddingDate = new Date("December 5, 2026 10:00:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
@@ -43,8 +43,8 @@ function updateCountdown() {
 }
 
 
-// Run immediately when the page loads
+//For running the countdown as soon as the page loads
 updateCountdown();
 
-// Update every second
+// Update every second of the timer
 setInterval(updateCountdown, 1000);
