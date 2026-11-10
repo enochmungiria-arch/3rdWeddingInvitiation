@@ -1,4 +1,7 @@
-﻿const weddingDate = new Date("December 5, 2026 10:00:00").getTime();
+﻿//official wedding date and time is fifth of December 2026 and the wedding begins art 10:00 am.
+
+const weddingDate = new Date("December 5, 2026 10:00:00").getTime();
+
 
 function updateCountdown() {
     const now = new Date().getTime();
