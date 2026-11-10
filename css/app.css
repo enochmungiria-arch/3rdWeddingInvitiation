@@ -509,7 +509,7 @@ img {
             rgba(249, 247, 242, 0.20),
             rgba(249, 247, 242, 0.25)
         ),
-        url('../images/bouquet.jpg')!important;
+        url('../images/background.jpg')!important;
         
 
     background-size: cover !important;
